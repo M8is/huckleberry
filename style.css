@@ -10,3 +10,25 @@ body {
 }
 
 /* Add styles here! */
+header {
+  border-bottom: 8px solid;
+}
+
+main {
+  padding: 90px 0;
+}
+
+.intro-chunk {
+  padding-top: 96px;
+  padding-bottom: 64px;
+  max-width: 415px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  border-bottom: 8px solid;
+}
