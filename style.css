@@ -18,6 +18,10 @@ main {
   padding: 90px 0;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 .intro-chunk {
   padding-top: 96px;
   padding-bottom: 64px;
