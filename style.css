@@ -10,6 +10,15 @@ body {
 }
 
 /* Add styles here! */
+html {
+  background: hsla(0, 0%, 40%, 1);
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
 header {
   border-bottom: 8px solid hsla(0, 0%, 60%, 1);
   background: white;
@@ -21,7 +30,6 @@ header strong {
 
 main {
   padding: 90px 0;
-  background: hsla(0, 0%, 40%, 1);
 }
 
 h1 {
@@ -32,6 +40,11 @@ h1 {
   padding-top: 96px;
   padding-bottom: 64px;
   max-width: 415px;
+  font-size: 1.25rem;
+}
+
+.title {
+  padding-bottom: 2rem;
 }
 
 .max-width-wrapper {
@@ -43,10 +56,15 @@ h1 {
   border-bottom: 8px solid hsla(0, 0%, 60%, 1);
   background: white;
   padding: 8px 24px;
+  font-size: 1.25rem;
 }
 
 .card > .indented-heading {
   margin-left: -30px;
+}
+
+.card p {
+  font-weight: 500;
 }
 
 .indented-heading {
